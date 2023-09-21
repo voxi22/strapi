@@ -2355,23 +2355,6 @@
     plop "2.7.6"
     pluralize "8.0.0"
 
-"@strapi/helper-plugin@4.11.4":
-  version "4.11.4"
-  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.11.4.tgz#f6317ac7d97e4963d8d6312d0122a960ebefe395"
-  integrity sha512-H0DObDZP6jIitNPvv2nFbtwbUzD8MYJCDoclbdooeyKW1UoxNOuphoVpZdbsHbyUgN2HqHo08GWevaX6NPhQwQ==
-  dependencies:
-    axios "1.4.0"
-    date-fns "2.30.0"
-    formik "^2.4.0"
-    immer "9.0.19"
-    lodash "4.17.21"
-    prop-types "^15.8.1"
-    qs "6.11.1"
-    react-helmet "^6.1.0"
-    react-intl "6.4.1"
-    react-query "3.39.3"
-    react-select "5.7.0"
-
 "@strapi/helper-plugin@4.11.5":
   version "4.11.5"
   resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.11.5.tgz#faab3b59bd119245d0c9271c5dbfbe6a655a97de"
@@ -2550,13 +2533,13 @@
     "@strapi/utils" "4.11.5"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@4.11.5":
-  version "4.11.5"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.11.5.tgz#d6d42fb41c51079f16838295589bbf75e1405868"
-  integrity sha512-D7KCxJ1gbrW+b5AqZHsA/z17lKHkKkrQaYBwjCaLi8h0f1RfD/QcbFZaQPwDXKr7iy+bwRqTGPAfmFbx8Mzumw==
+"@strapi/provider-upload-cloudinary@4.13.7":
+  version "4.13.7"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.13.7.tgz#c5d3bb2a3adc7fcbb474beb71112a9c8d008a8fd"
+  integrity sha512-yLV8rC/tcdC4OV951//VT68fhjQol32jPoqx4Lma2vgdFebmXoHKgtY+of5khjaPPiKHaJcpZU1+BUbMrwKUFQ==
   dependencies:
-    "@strapi/utils" "4.11.5"
-    cloudinary "^1.37.0"
+    "@strapi/utils" "4.13.7"
+    cloudinary "^1.40.0"
     into-stream "^5.1.0"
 
 "@strapi/provider-upload-local@4.11.5":
@@ -2666,10 +2649,10 @@
     aria-hidden "^1.2.3"
     react-remove-scroll "^2.5.5"
 
-"@strapi/utils@4.11.4":
-  version "4.11.4"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.11.4.tgz#9b006498159aac345bad3231029487e2a45c6656"
-  integrity sha512-eNpaj9OmwfdkeDBPYZxTDgCHo1vbhrd4PrFxEJr6vdSd3YYhmX53/OgdL277xbVokt+LOdYKSUUJwsfTQp1Fbw==
+"@strapi/utils@4.11.5":
+  version "4.11.5"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.11.5.tgz#e406192810b0b4e5bdb897161b425b020f002186"
+  integrity sha512-wKwQpxHR4tO2YWaGBM+oS9mLA1rO39vRYjbmlk8jm1WP2mhRqcnzebRE/FPxpGZLwwPS4/CB3X5VxD9V/v8LCg==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.30.0"
@@ -2678,10 +2661,10 @@
     p-map "4.0.0"
     yup "0.32.9"
 
-"@strapi/utils@4.11.5":
-  version "4.11.5"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.11.5.tgz#e406192810b0b4e5bdb897161b425b020f002186"
-  integrity sha512-wKwQpxHR4tO2YWaGBM+oS9mLA1rO39vRYjbmlk8jm1WP2mhRqcnzebRE/FPxpGZLwwPS4/CB3X5VxD9V/v8LCg==
+"@strapi/utils@4.13.7":
+  version "4.13.7"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.13.7.tgz#cf8a9286d04ea9ba7d8c8c1c7b3680f9a6f7cc10"
+  integrity sha512-v1e0408+wYr7WbAxQ1Vdwv117J8GorgAGd9l2y8nhBQIRKpNgFx0Ym93N8YVCtLQPPwHM83TOr/Sc3x99f8jbQ==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.30.0"
@@ -4054,10 +4037,10 @@ cloudinary-core@^2.13.0:
   resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.13.0.tgz#b59f90871b6c708c3d0735b9be47ac08181c57fb"
   integrity sha512-Nt0Q5I2FtenmJghtC4YZ3MZZbGg1wLm84SsxcuVwZ83OyJqG9CNIGp86CiI6iDv3QobaqBUpOT7vg+HqY5HxEA==
 
-cloudinary@^1.37.0:
-  version "1.37.3"
-  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.37.3.tgz#859ac875c022e84315e6ea092aa3f05e031ceabb"
-  integrity sha512-XrGb60ZeQhYp9QQjj5DP3cYsAc27OV1B7pezvVxyqgHB5WMeMsofzeIy6+k0o/fCCv744Nf7xsYiTlUi3V0V/Q==
+cloudinary@^1.40.0:
+  version "1.40.0"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.40.0.tgz#34a7de414b4526021c8e25cc66c3122721d91be6"
+  integrity sha512-Fifkl8NRw/M+Enw4cKCXc6e0Or28c5y6RVGYS3OCLzT1W8EfBt416FURhLuuL/S4BCVv8bSilmnM746kCtth3g==
   dependencies:
     cloudinary-core "^2.13.0"
     core-js "^3.30.1"
@@ -8486,18 +8469,6 @@ react-query@3.39.3:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
     match-sorter "^6.0.2"
-
-react-redux@8.0.5:
-  version "8.0.5"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-8.0.5.tgz#e5fb8331993a019b8aaf2e167a93d10af469c7bd"
-  integrity sha512-Q2f6fCKxPFpkXt1qNRZdEDLlScsDWyrgSj0mliK59qU6W5gvBiKkdMEG2lJzhd1rCctf0hb6EtePPLZ2e0m1uw==
-  dependencies:
-    "@babel/runtime" "^7.12.1"
-    "@types/hoist-non-react-statics" "^3.3.1"
-    "@types/use-sync-external-store" "^0.0.3"
-    hoist-non-react-statics "^3.3.2"
-    react-is "^18.0.0"
-    use-sync-external-store "^1.0.0"
 
 react-redux@8.1.1:
   version "8.1.1"
